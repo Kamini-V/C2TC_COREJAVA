@@ -1,12 +1,17 @@
 package day1;
-
+import java.util.Scanner;
 public class Addition {
 	public static void main(String[] args) {
 		int a,b,c;
-		a=Integer.parseInt(args[0]);
-		b=Integer.parseInt(args[1]);
+		Scanner Sc;
+		Sc = new Scanner(System.in);
+		System.out.print("Enter a: ");
+		a= Sc.nextInt();
+		System.out.print("Enter b: ");
+		b= Sc.nextInt();
 		c=a+b;
-	System.out.println("Addition of a="+a+" and b="+b+" is"+c);
+		System.out.println("Addition of a" +a+ " and b= " +b+ " is" +c);		
+		
 	}
 
 }
